@@ -1,0 +1,10 @@
+CREATE DATABASE StudentsDB;
+USE StudentsDB;
+CREATE TABLE IF NOT EXISTS Student(
+student_id INT AUTO_INCREMENT PRIMARY KEY,
+first_name VARCHAR(20) NOT NULL,
+last_nmae VARCHAR(20) NOT NULL,
+date_of_birth DATE NOT NULL,
+major VARCHAR(20) NOT NULL
+);
+SELECT * FROM Student;
